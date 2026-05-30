@@ -1,22 +1,22 @@
 class AgentLxMusic < Formula
   desc "A terminal-native music CLI replacing lx-music-desktop, powered by Agentic intelligence"
   homepage "https://github.com/Xuepoo/agent-lx-music"
-  version "0.2.5"
+  version "0.2.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Xuepoo/agent-lx-music/releases/download/v0.2.5/alx-macos-aarch64"
-      sha256 "e50f3b3007ec768d34f102c667d59d5b83acc0ec92f30ff696caa136587a4d2a"
+      url "https://github.com/Xuepoo/agent-lx-music/releases/download/v0.2.6/alx-macos-aarch64"
+      sha256 "643ab549a75ffb24585915b7145496bd05114f3e4d32e1c7bc1b69223b6dcb55"
     else
-      url "https://github.com/Xuepoo/agent-lx-music/releases/download/v0.2.5/alx-macos-x86_64"
-      sha256 "11cdee4c4b6ecc891541b92b5cc17b582863f5529f02f2d8e41f93e1643a159e"
+      url "https://github.com/Xuepoo/agent-lx-music/releases/download/v0.2.6/alx-macos-x86_64"
+      sha256 "d2d3e938dc8e595093d1858ec731571924d369edb6a8b5678af84b888e387505"
     end
   end
 
   on_linux do
-    url "https://github.com/Xuepoo/agent-lx-music/releases/download/v0.2.5/alx-linux-x86_64"
-    sha256 "7cd2f1591b52f3a3284069599a5a60b617287448ee6362715005a96e2007813a"
+    url "https://github.com/Xuepoo/agent-lx-music/releases/download/v0.2.6/alx-linux-x86_64"
+    sha256 "9892105314b4638b3f2f00f7b68d21e0008be5939812a24c1017fdb21ce55d67"
   end
 
   def install

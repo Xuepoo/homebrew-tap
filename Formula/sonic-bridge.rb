@@ -7,16 +7,16 @@ class SonicBridge < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Xuepoo/sonic-bridge/releases/download/v0.4.2/sonic-bridge-macos-aarch64"
-      sha256 "8931f2ee4960ec1fa0ab2dd26590576754939001e0c59f54ae4cd558e5c4d61c"
+      sha256 "1bff4e0cbf401459e9496c7836c64728ab7c7ed66f9f3312467f99a48e25d64f"
     else
       url "https://github.com/Xuepoo/sonic-bridge/releases/download/v0.4.2/sonic-bridge-macos-x86_64"
-      sha256 "960569001a26b129e16f7f8ec2bb677fa559148b1856cdaaaebc4fb612d544b7"
+      sha256 "e3f6bbc9e8de70cb22273f8090f9f6ef106cf1f909d8b85ac1557cce097e5a08"
     end
   end
 
   on_linux do
     url "https://github.com/Xuepoo/sonic-bridge/releases/download/v0.4.2/sonic-bridge-linux-x86_64"
-    sha256 "9486ae7fba173cc8ed7825cafd75130ed928f5695a1a405db9adfd96c9d4212d"
+    sha256 "9895fb6427bebc5adc846b5cc9da15f2bdddb8db732b387e04fb0fe0d47cb0d3"
   end
 
   def install

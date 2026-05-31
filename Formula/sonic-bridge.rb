@@ -1,22 +1,22 @@
 class SonicBridge < Formula
   desc "An ultra-fast, lightweight physical music aesthetic and listening translation middleware designed for AI Agents"
   homepage "https://github.com/Xuepoo/sonic-bridge"
-  version "0.3.8"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Xuepoo/sonic-bridge/releases/download/v0.3.8/sonic-bridge-macos-aarch64"
-      sha256 "3cd0fb23c3cf0223f7b2e4bbe5dfe0fa8af08020e6bab80c0b1a5f6d47fb6234"
+      url "https://github.com/Xuepoo/sonic-bridge/releases/download/v0.4.0/sonic-bridge-macos-aarch64"
+      sha256 "966f4f141abaae885677ae31754ff9c3b6d41465c2a36c43991718be91d53eef"
     else
-      url "https://github.com/Xuepoo/sonic-bridge/releases/download/v0.3.8/sonic-bridge-macos-x86_64"
-      sha256 "daa735afbe49b39b6b3ef03151de8746eb3c779aed1ff6e11b3f14ad27e985a7"
+      url "https://github.com/Xuepoo/sonic-bridge/releases/download/v0.4.0/sonic-bridge-macos-x86_64"
+      sha256 "54e0236d1d1051b40ba94c0dec77118d24c02b9ff407f53a8e40381ce734db09"
     end
   end
 
   on_linux do
-    url "https://github.com/Xuepoo/sonic-bridge/releases/download/v0.3.8/sonic-bridge-linux-x86_64"
-    sha256 "cfb1974b26bfdd037bd0cbac2839a65b427d9061f6b8ace05d49f95e8069e9e8"
+    url "https://github.com/Xuepoo/sonic-bridge/releases/download/v0.4.0/sonic-bridge-linux-x86_64"
+    sha256 "99faba17f1e6ae72f8e2d7137575172fec4015e643134892411200571290bc09"
   end
 
   def install

@@ -3,7 +3,7 @@ class WaywarpScanner < Formula
 
   desc "High-performance Wayland GUI layout scanner for AI Agents"
   homepage "https://github.com/Xuepoo/waywarp_scanner"
-  url "https://github.com/Xuepoo/waywarp_scanner/releases/download/v0.1.5/waywarp_scanner-0.1.5.tar.gz"
+  url "https://github.com/Xuepoo/waywarp_scanner/releases/download/v0.1.6/waywarp_scanner-0.1.6.tar.gz"
   license "MIT"
 
   depends_on "python@3.13"

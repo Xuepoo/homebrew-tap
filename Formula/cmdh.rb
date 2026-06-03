@@ -7,16 +7,16 @@ class Cmdh < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Xuepoo/cmdhub/releases/download/v0.1.0-alpha/cmdh-v0.1.0-alpha-aarch64-apple-darwin.tar.gz"
-      sha256 "e6f8f3b74bc61eceb5c9ae1ff8bf2e468c74e1e7324e526ef9202a0f47890e02"
+      sha256 "7f613b5ad58ce035fb4e3f38a03edaa318f1d913730b7767b6b58149f20135e7"
     else
       url "https://github.com/Xuepoo/cmdhub/releases/download/v0.1.0-alpha/cmdh-v0.1.0-alpha-x86_64-apple-darwin.tar.gz"
-      sha256 "3421309e826425e5ca94cf4e212e894087b47ff4372c8622dd1691c03f66f37a"
+      sha256 "0b474446806c86ec77f38122e8bb03042c2a4558e87e8489b2f52f50f072ed4e"
     end
   end
 
   on_linux do
     url "https://github.com/Xuepoo/cmdhub/releases/download/v0.1.0-alpha/cmdh-v0.1.0-alpha-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "be603b7445ccc44e4988d2d132c4cbecd2d59c488b98e96c61db8eab1642f970"
+    sha256 "4226f58a6e04a97fe97d7bc29fde40289809145333ced88b49232697fab6e0c5"
   end
 
   def install

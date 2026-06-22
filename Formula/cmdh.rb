@@ -1,22 +1,22 @@
 class Cmdh < Formula
   desc "CmdHub agent-computer interface CLI client"
   homepage "https://github.com/Xuepoo/cmdhub-oss"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Xuepoo/cmdhub-oss/releases/download/v0.1.2/cmdh-v0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "bc207e452844e3181e5ae52ef35d8dda274f0d68173c32c101e9956f3e6d203c"
+      url "https://github.com/Xuepoo/cmdhub-oss/releases/download/v0.1.3/cmdh-v0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "ad9c8de49f3ba8eadbfbca526853a539e6f23b0b17a8ff605b8f253c87dd29f7"
     else
-      url "https://github.com/Xuepoo/cmdhub-oss/releases/download/v0.1.2/cmdh-v0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "a4eb061e9cd3dff82b36562a01737e7daeb04bc355b93d448a1405359400262e"
+      url "https://github.com/Xuepoo/cmdhub-oss/releases/download/v0.1.3/cmdh-v0.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "5159aaeefb6f33f8e5d62f9689b01bf1aa616c4865107a1fbb4dffb22d4fc5a1"
     end
   end
 
   on_linux do
-    url "https://github.com/Xuepoo/cmdhub-oss/releases/download/v0.1.2/cmdh-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "e807828f9fe6e70b377e38ed9214814b5876e52a3c41d6eb1bffa03ca0b2ea58"
+    url "https://github.com/Xuepoo/cmdhub-oss/releases/download/v0.1.3/cmdh-v0.1.3-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "557d8ae61836475ddabeae5a0ad942ae01273a2dd13ec6c77235e1200af081da"
   end
 
   def install

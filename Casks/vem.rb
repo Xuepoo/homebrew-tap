@@ -1,13 +1,13 @@
 cask "vem" do
-  version "0.1.20"
+  version "0.1.21"
 
   on_arm do
-    sha256 "8784b799435318326f36ccdca12d291d097712a3f0956c1862820d54aadcdb65"
-    url "https://github.com/vemjs/vem-desktop/releases/download/v0.1.20/Vem_0.1.20_aarch64.dmg"
+    sha256 "ee00c6543b7d394f5fdf865611f78e7bb54fb51a4a16f84bb48b708a7b83077e"
+    url "https://github.com/vemjs/vem-desktop/releases/download/v0.1.21/Vem_0.1.21_aarch64.dmg"
   end
   on_intel do
-    sha256 "f896f5049313aee18e3c156cd48bbcf26f74187fcbd94967fcf7569eb455b88e"
-    url "https://github.com/vemjs/vem-desktop/releases/download/v0.1.20/Vem_0.1.20_x64.dmg"
+    sha256 "10859772266792762592160642d21d49d176a4c72179813d47fc2949390125df"
+    url "https://github.com/vemjs/vem-desktop/releases/download/v0.1.21/Vem_0.1.21_x64.dmg"
   end
 
   name "Vem"

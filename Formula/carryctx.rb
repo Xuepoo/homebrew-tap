@@ -1,22 +1,22 @@
 class Carryctx < Formula
   desc "Persistent project context for coding agents"
   homepage "https://carryctx.dev"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Xuepoo/carryctx/releases/download/v0.2.0/carryctx-aarch64-apple-darwin"
-      sha256 "f494c501bcdc4e667cdb536a4a411ac561cae77369a9c54f6434f13eae3b8de9"
+      url "https://github.com/Xuepoo/carryctx/releases/download/v0.3.0/carryctx-aarch64-apple-darwin"
+      sha256 "bece30992777ef8025745e04ad0f267f8d4dc47759505281173f5ba7b890952c"
     else
-      url "https://github.com/Xuepoo/carryctx/releases/download/v0.2.0/carryctx-x86_64-apple-darwin"
-      sha256 "41b2cbe8e77ea2e19fef76222069f8fff22946df68b783d5c0d9a91e0a3614e2"
+      url "https://github.com/Xuepoo/carryctx/releases/download/v0.3.0/carryctx-x86_64-apple-darwin"
+      sha256 "0ea43e861d7cfc78da72c6eb4f0d7a39453a6ae759de459be66ede267aca53c7"
     end
   end
 
   on_linux do
-    url "https://github.com/Xuepoo/carryctx/releases/download/v0.2.0/carryctx-x86_64-unknown-linux-gnu"
-    sha256 "58149926be03c49fe4b27e0e8c55224a016c9b6292bf34ed34adc4f9d122c934"
+    url "https://github.com/Xuepoo/carryctx/releases/download/v0.3.0/carryctx-x86_64-unknown-linux-gnu"
+    sha256 "670a9ea716c16a401a9cbf03fa59406632b67e2c8ac4f98aa208564ee26567b3"
   end
 
   def install

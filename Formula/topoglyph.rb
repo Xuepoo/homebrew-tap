@@ -1,14 +1,14 @@
 class Topoglyph < Formula
   desc "Topology-to-glyph text-art rendering engine"
   homepage "https://github.com/Xuepoo/topoglyph"
-  version "0.3.3"
+  version "0.3.4"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/Xuepoo/topoglyph/releases/download/v0.3.3/topoglyph-macos-x86_64"
-    sha256 "5a6844690f873a172821213929629a567852d8c1f0eb83b8e95e7f5dda00e190"
+    url "https://github.com/Xuepoo/topoglyph/releases/download/v0.3.4/topoglyph-macos-x86_64"
+    sha256 "dde570edc5557e841fb5587ffde2f496f70d36029960b94915fb38014f9f4160"
   elsif OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/Xuepoo/topoglyph/releases/download/v0.3.3/topoglyph-macos-aarch64"
-    sha256 "518d0a52b16caccda8a436511cb6da72b78dd9be352ed39ee7fe9946c36a23e4"
+    url "https://github.com/Xuepoo/topoglyph/releases/download/v0.3.4/topoglyph-macos-aarch64"
+    sha256 "08ac679b9a764596215423073d6218dc8c85b7b43a68daef270e17f19d42d1ac"
   end
 
   def install

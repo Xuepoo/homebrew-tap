@@ -1,14 +1,14 @@
 class Vectomancy < Formula
   desc "Image to vector math CLI"
   homepage "https://github.com/Xuepoo/vectomancy"
-  version "7.1.4"
+  version "7.1.5"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/Xuepoo/vectomancy/releases/download/v7.1.4/vectomancy-macos-x86_64"
-    sha256 "a15c0e40f34b8db24d5530ae6f59bf423b30d64d9e475091e5ed2af990c779c7"
+    url "https://github.com/Xuepoo/vectomancy/releases/download/v7.1.5/vectomancy-macos-x86_64"
+    sha256 "6e60e149cec1ed19ef379db8a95c7351dfbbfea2014e959c2de6766b2288131c"
   elsif OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/Xuepoo/vectomancy/releases/download/v7.1.4/vectomancy-macos-aarch64"
-    sha256 "5e79246ad408d84812dd6ed27df434dee631bfbda979e8bb36f5dbdd190a9099"
+    url "https://github.com/Xuepoo/vectomancy/releases/download/v7.1.5/vectomancy-macos-aarch64"
+    sha256 "ac785fed1c4f84d50ce386842ce3875e2069bf1d54180cedecc9da40b6487e5e"
   end
 
   def install

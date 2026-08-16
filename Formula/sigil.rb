@@ -1,15 +1,15 @@
 class Sigil < Formula
   desc "Invisible structural watermark for images"
   homepage "https://github.com/Xuepoo/sigil"
-  version "0.1.0"
+  version "0.2.0"
   license "Apache-2.0"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/Xuepoo/sigil/releases/download/v0.1.0/sigil-macos-x86_64.tar.gz"
-    sha256 "eb7073e48d37a3241edbbddc001f37ca11ef2e3e249cb7a9fc0c17e8b8426b2a"
+    url "https://github.com/Xuepoo/sigil/releases/download/v0.2.0/sigil-macos-x86_64.tar.gz"
+    sha256 "f90bfbac66b566284cc324004a0130e2ba0d69ebb58e301967acd9e2e54ae96d"
   elsif OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/Xuepoo/sigil/releases/download/v0.1.0/sigil-macos-aarch64.tar.gz"
-    sha256 "07d6c2f241bd7b78e6efc39adef75cbc81b6933119f90470254ba7caef47930d"
+    url "https://github.com/Xuepoo/sigil/releases/download/v0.2.0/sigil-macos-aarch64.tar.gz"
+    sha256 "f3f1674b676e43ae60a56f5226ebb156c524a0e8f195fc10540d286a3063caf7"
   end
 
   def install

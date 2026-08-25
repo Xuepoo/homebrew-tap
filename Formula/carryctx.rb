@@ -7,16 +7,16 @@ class Carryctx < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Xuepoo/carryctx/releases/download/v0.7.0/carryctx-aarch64-apple-darwin"
-      sha256 "1504b9303d76c6e470b47d616591942204e6d0f5cb281408819e7271fef6a4ca"
+      sha256 "ee6a8d32c11aaa720d6f44d82a0a116e7c0dc5f1829aecdd895ce13342952f99"
     else
       url "https://github.com/Xuepoo/carryctx/releases/download/v0.7.0/carryctx-x86_64-apple-darwin"
-      sha256 "138316e01981ea9f8d11a56e46f7908555100a421effdf23d347387404ca077a"
+      sha256 "0e9fd5bf48d6ef331469ff331335f9ca0b19a23fc5321fce45cd5f422283c8b2"
     end
   end
 
   on_linux do
     url "https://github.com/Xuepoo/carryctx/releases/download/v0.7.0/carryctx-x86_64-unknown-linux-gnu"
-    sha256 "a7b1119e0d1f595ec1aa89645d9e92a5462e7a6c79d61bc84862690311b1169a"
+    sha256 "6d6ada71a6b0f9488d0374f014c9b2267d20d6215cf36278d07c77c9988ec030"
   end
 
   def install

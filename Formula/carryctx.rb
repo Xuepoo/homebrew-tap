@@ -1,22 +1,22 @@
 class Carryctx < Formula
   desc "Local-first memory for coding agents"
    homepage "https://carryctx.xuepoo.xyz"
-  version "0.11.6"
+  version "0.11.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Xuepoo/carryctx/releases/download/v0.11.6/carryctx-aarch64-apple-darwin"
-      sha256 "a74cb8867a7c65f514dc5c6e3c9e743a8d825778d0da1db81f7ef7522686bcd5"
+      url "https://github.com/Xuepoo/carryctx/releases/download/v0.11.7/carryctx-aarch64-apple-darwin"
+      sha256 "6862eb48ad443a936ed65da3fbf8334c5056f753bba76fe771450f6251f95c89"
     else
-      url "https://github.com/Xuepoo/carryctx/releases/download/v0.11.6/carryctx-x86_64-apple-darwin"
-      sha256 "f994c2012023f41f3b80286f6ee49d2fa8f1c5484e067e50f84bb4a19f87a097"
+      url "https://github.com/Xuepoo/carryctx/releases/download/v0.11.7/carryctx-x86_64-apple-darwin"
+      sha256 "d9daac40578d291aac3983f66b160fd5398873538c63ca49fd5efe7a7e876e5d"
     end
   end
 
   on_linux do
-    url "https://github.com/Xuepoo/carryctx/releases/download/v0.11.6/carryctx-x86_64-unknown-linux-gnu"
-    sha256 "d87e8dc0eb15dd1057e4f9fefd3fd573f09816056726188da77c25baa43cf680"
+    url "https://github.com/Xuepoo/carryctx/releases/download/v0.11.7/carryctx-x86_64-unknown-linux-gnu"
+    sha256 "e1c2061b3f2c6738299ac89b2c3fbb26f41dd70e65f372369dccb3d23db1dd39"
   end
 
   def install
